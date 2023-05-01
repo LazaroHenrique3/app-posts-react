@@ -1,0 +1,13 @@
+.btn-back{
+    color: #29EBAA;
+    font-size: 45px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-back:hover{
+    color: #27da9e;
+    font-size: 48px;
+}
+
+
