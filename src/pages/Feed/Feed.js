@@ -22,11 +22,11 @@ function Feed() {
     }, [])
 
     function deletePost(id){
-        axios.delete(`${API_URL}/delete_post/${id}`)
-        .then(() => {
-            setPosts(posts.filter(post => post._id !== id))
-        })
-        .catch((e) => console.log(e))
+         axios.delete(`${API_URL}/delete_post/${id}`)
+         .then(() => {
+             setPosts(posts.filter(post => post._id !== id))
+          })
+         .catch((e) => console.log(e))
     }
 
     return (
