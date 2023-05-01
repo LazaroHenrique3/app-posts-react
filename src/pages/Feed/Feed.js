@@ -22,11 +22,15 @@ function Feed() {
     }, [])
 
     function deletePost(id){
-         axios.delete(`${API_URL}/delete_post/${id}`)
-         .then(() => {
-             setPosts(posts.filter(post => post._id !== id))
-          })
-         .catch((e) => console.log(e))
+        const confim = window.confirm("Este post será excluído permanentemente! Confirma?")
+
+        if (confim) {
+            axios.delete(`${API_URL}/delete_post/${id}`)
+            .then(() => {
+                setPosts(posts.filter(post => post._id !== id))
+            })
+            .catch((e) => console.log(e))
+        }
     }
 
     return (
