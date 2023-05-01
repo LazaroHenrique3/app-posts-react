@@ -52,7 +52,7 @@ function Feed() {
                                     </div>
                                     <div className='btn-readmore'>
                                         <Link to={{pathname: `/readmore/${post._id}`}}>
-                                            <button>Editar</button>
+                                            <button>Ler mais</button>
                                         </Link>
                                     </div>
                                     <div className='btn-delete'>
