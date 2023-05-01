@@ -1,8 +1,8 @@
 # CRUder
 
-Projeto feito para praticar o desenvolvimento fullstack e os conceitos de API, sendo assim construí essa aplicação com frontend React consumindo uma API construída com Node, express e MongoDB, fiz com base no minicurso do canal do youtube (Além do código).
+Projeto feito para praticar o desenvolvimento fullstack e os conceitos de API, sendo assim construí essa aplicação com frontend React consumindo uma API construída com Node, express e MongoDB, fiz com base no minicurso do canal do youtube **Além do código**.
 
-## 👀 Deploy: <a href="https://app-posts-react-theta.vercel.app/">CRUder</a>
+## 👀 Ver deploy! 👉 <a href="https://app-posts-react-theta.vercel.app/">CRUder</a>
 
 ## 🖼 Screenshots do projeto
 
