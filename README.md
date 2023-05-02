@@ -31,11 +31,11 @@ Projeto feito para praticar o desenvolvimento fullstack e os conceitos de API, s
   <img align="center" src="https://user-images.githubusercontent.com/78514404/235457608-44dc51d6-875e-480a-80b2-1150556aa43c.PNG" alt="Pokedex" width="800"/>
 </p>
 
-# Para rodar o projeto utilize o comando (**npm start**) 
-
 ## 🛠️ Construído com
 
 * **React**
+* **Node(Backend)**
+* **Mongo(Banco de dados)**
 
 ## ✒️ Autor
 
